@@ -1,11 +1,12 @@
 import React from 'react';
+import HelloWorld from './HelloWorld';
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <HelloWorld name="Damany"/>
+      <HelloWorld name="Sophia"/>
     </div>
   );
 }
