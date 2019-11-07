@@ -1,12 +1,11 @@
 import React from 'react';
-import HelloWorld from './HelloWorld';
+import HelloWorldList from './HelloWorldList';
 
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld name="Damany"/>
-      <HelloWorld name="Sophia"/>
+      <HelloWorldList/>
     </div>
   );
 }
